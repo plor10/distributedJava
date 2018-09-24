@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul.tabNavigation1 {
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 14px 40px;
+	text-align: center;
+	background-color: #333;
+	right: 0;
+	left: 0;
+	top: 10px;
+}
+ul.tabNavigation {
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 14px 40px;
+	text-align: center;
+	background-image: url(../images/cloud92.jpg);
+	background-position: center;
+	right: 0;
+	left: 0;
+	top: 50px;
+}
+ul.tabNavigation3 {
+	position: absolute;
+	list-style: none;
+	margin-top: 40px;
+	margin-right: -30px;
+	padding: 14px 40px;
+	text-align: right;
+	background-position: center;
+	right: 0;
+	left: 0;
+	top: 50px;
+}
+
+ul.tabNavigation2 {
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 14px 40px;
+	text-align: center;
+	background-color: black;
+	right: 0;
+	left: 0;
+	top: 150px;
+}
+
+ul.tabNavigation1 li, ul.tabNavigation2 li, ul.tabNavigation3 li, ul.tabNavigation {
+	float: none;
+	display: inline;
+}
+
+ul.tabNavigation1 li a {
+	float: right;
+	position: relative;
+	padding: 0;
+	color: #F0F8FF;
+	text-decoration: none;
+	margin-right: 15px;
+}
+ul.tabNavigation li a {
+	float: right;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 55px;
+	color: #0C0;
+	text-decoration: none;
+	margin-right: 15px;
+}
+ul.tabNavigation3 li a {
+	position: relative;
+	padding-bottom: 55px;
+	color: #0C0;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+ul.tabNavigation2 li a{
+	float: right;
+	position: relative;
+	padding: 0;
+	color: #F0F8FF;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+
+
+ul.tabNavigation1 li a.selected,
+ul.tabNavigation1 li a:hover,
+ul.tabNavigation2 li a.selected,
+ul.tabNavigation2 li a:hover,
+ul.tabNavigation li a.selected,
+ul.tabNavigation li a:hover {
+	color: #C33;
+}
+
+ul.tabNavigation li A:focus {
+	outline: 0;
+}
+
+#searchBar{
+	margin-right: 50px;
+}
+
+.site {
+	margin-top: -10rem;
+}
+
+th, tr, td{
+	text-align: right;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 140px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+div.tabs > div {
+	text-align: left;
+	padding: 15px;
+	width: 100px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.tabs > div h2 {
+	margin-top: 0;
+}
+
+.title{
+	text-align: center;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	padding-top: 10rem;
+	padding-bottom: 20rem;
+	min-height: 100%;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#myImg{
+	display: block;
+	left: 200px;
+	max-height: 60%;
+	max-width: 60%;
+}
+#dataImg{
+	height: 30%;
+	width: 30%;
+}
+.row{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+p {
+	color: #09C;
+	font-size: 16px; 
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	text-align: center;
+}
+
+.thumbnail_align {
+	text-align: center;
+}
+
+h1 {
+	font-size: 20;
+	color: #006;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+
+h5 {
+	color: red;
+}
+
+#display{
+	font-size: 26px;
+}
+#ff {
+	color: #FFF;
+	text-align: left;
+}
+#f {
+	color: #FFF;
+	font-size:10px;
+	text-align: left;
+}
+#g {
+	color: #FFF;
+	text-align: left;
+}
+#h {
+	color: #FFF;
+	text-align: right;
+}
+
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* START Table Format*/
+body {
+  font: normal medium/1.4 sans-serif;
+}
+#perPage{
+	margin-bottom: 10px;
+	margin-left: 130px;	
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+tbody tr:not(.noBorder):hover {
+	background-color: #6CF;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*Products View*/
+/*CSS found on Codepen: https://codepen.io/dungbt149/pen/qIdof*/
+	*{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+body {
+  font-family: Calluna, Arial, sans-serif;
+  min-height: 1000px;
+}
+#wrap{
+	width: 90%;
+	max-width: 1100px; /*Modify to enlarge grid/images*/
+	margin: 50px auto; /*Top spacing*/
+}
+.columns_2 figure{
+   width:49%;
+   margin-right:1%;
+}
+.columns_2 figure:nth-child(2){
+	margin-right: 0;
+}
+.columns_3 figure{
+   width:32%;
+   margin-right:1%;
+}
+.columns_3 figure:nth-child(3){
+	margin-right: 0;
+}
+.columns_4 figure{
+   width:24%;
+   margin-right:1%;
+}
+.columns_4 figure:nth-child(4){
+	margin-right: 0;
+}
+.columns_5 figure{
+   width:19%;
+   margin-right:1%;
+}
+.columns_5 figure:nth-child(5){
+	margin-right: 0;
+}
+#columns figure:hover{
+	-webkit-transform: scale(1.5);
+	-moz-transform:scale(1.5);
+	transform: scale(1.1);
+
+}
+#columns:hover figure:not(:hover) {
+	opacity: 0.4;
+}
+div#columns figure {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 0px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+div#columns figure img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+  color: #444;
+  line-height: 1.5;
+  height:60px;
+  font-weight:600;
+  text-overflow:ellipsis;
+}
+
+a.button{
+  padding:10px;
+  background:salmon;
+  margin:10px;
+  display:block;
+  text-align:center;
+  color:#fff;
+  transition:all 1s linear;
+  text-decoration:none;
+  text-shadow:1px 1px 3px rgba(0,0,0,0.3);
+  border-radius:3px;
+  border-bottom:3px solid #ff6536;
+  box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+}
+a.button:hover{
+  background:#ff6536;
+  border-bottom:3px solid salmon;
+  color:#f1f2f3;
+}
+@media screen and (max-width: 960px) { 
+  #columns figure { width: 24%; }
+}
+@media screen and (max-width: 767px) {
+  #columns figure { width:32%;}
+}
+@media screen and (max-width: 600px) {
+  #columns figure { width: 49%;}
+}
+@media screen and (max-width: 500px) {
+  #columns figure { width: 100%;}
+}
+
+/* END Product VIEW*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/

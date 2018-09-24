@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 16px Sans-Serif;
+}
+h1 {
+  margin: 0 0 20px 0;
+}
+p {
+  margin: 20px 0 0 0;
+}
+
+.footer {
+	right: 0;
+	left: 0;;
+	bottom: 0;
+	width: 100%;
+	padding: 1rem;
+	height: 500px;
+	background-color: #CCC;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+
+.ftables {
+	margin-top: 10px;
+	margin-left: 200px;	
+}
+
+.noBorder {  
+    border: none;
+}
+.noBorder.selected,
+.noBorder:hover {
+	color: #C33;
+}
+
+#title {
+	font-size: 24px;
+}
+
+
+
+
+
+
+
