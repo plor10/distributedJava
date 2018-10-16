@@ -1,0 +1,27 @@
+
+Dinosaur Lists
+
+d1 - Red Brown Triceratop
+d2 - Ankylosaurus
+d3 - Triceratop & Tyrannosaurus
+d4 - Angry Furious Tyrannosaurus
+d5 - Raptor
+d6 - Carnotaurus
+d7 - Feathered Velociraptor
+d8 - Spinosaurus
+d9 - Red Spike Kentrosaurus
+d10 - White Spike Kentrosaurus
+d11 - Papo Allosaurus
+d12 - Papo Apatosaurus
+d13 - Stripe Parasaurolophus
+d14 - Suchomimus
+d15 - Pteranodon
+d16 - Edmontosaurus
+d17 - Male Dimorphodon
+d18 - Gallimimus
+d19 - Bright Stegosaurus
+d20 - Baryonyx
+d21 - Stygimoloch
+d22 - Metriacanthosaurus
+d23 - Velociraptor
+d24 - Pachycephalosaurus
