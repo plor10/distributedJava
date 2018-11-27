@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Oct 14 12:34:54 CDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (Unversioned directory): instance a816c00e-0166-73a5-2236-000006c3d450 
+on database directory /Users/plor/Downloads/October82018/DistJava-master/DBSample/DinosaurDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/plor/Downloads/glassfish5/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-b11
+user.dir=/Users/plor/Downloads/October82018/DistJava-master/DBSample
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
